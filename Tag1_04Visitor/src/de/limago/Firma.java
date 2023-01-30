@@ -18,14 +18,14 @@ public class Firma {
     }
 
     public void print() {
-        for (AbstractMitarbeiter mitarbeiter: mitarbeiters) {
-            System.out.println(mitarbeiter);
-        }
+       mitarbeiters.forEach(System.out::println);
     }
 
     public void iterate(MitarbeiterVisitor visitor) {
+        visitor.init();
         for (AbstractMitarbeiter mitarbeiter: mitarbeiters) {
             mitarbeiter.accept(visitor);
         }
+        visitor.dispose();
     }
 }

@@ -4,6 +4,7 @@ import de.limago.mitarbeiter.GehaltsEmpfaenger;
 import de.limago.mitarbeiter.Lohnempfaenger;
 import de.limago.mitarbeiter.visitors.PrintVisitor;
 import de.limago.mitarbeiter.visitors.ResetArbeitszeitVisitor;
+import de.limago.mitarbeiter.visitors.StatistikVisitor;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,5 +19,10 @@ public class Main {
         firma.iterate(new PrintVisitor());
         firma.iterate(new ResetArbeitszeitVisitor());
         firma.iterate(new PrintVisitor());
+
+
+        firma.iterate(new StatistikVisitor());
+        // StatistikVisitor
+        // Anzahl Mitarbeiter, Anzahl GE, Anzahl LE
     }
 }

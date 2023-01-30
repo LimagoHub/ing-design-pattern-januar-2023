@@ -4,7 +4,7 @@ import de.limago.mitarbeiter.AbstractMitarbeiter;
 import de.limago.mitarbeiter.GehaltsEmpfaenger;
 import de.limago.mitarbeiter.Lohnempfaenger;
 
-public class PrintVisitor implements MitarbeiterVisitor{
+public class PrintVisitor extends AbstractMitarbeiterVisitor{
     @Override
     public void visit(GehaltsEmpfaenger gehaltsEmpfaenger) {
         print(gehaltsEmpfaenger);

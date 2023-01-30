@@ -5,6 +5,9 @@ import de.limago.mitarbeiter.Lohnempfaenger;
 
 public interface MitarbeiterVisitor {
 
+    void init();
     void visit(GehaltsEmpfaenger gehaltsEmpfaenger);
     void visit(Lohnempfaenger lohnempfaenger);
+
+    void dispose();
 }

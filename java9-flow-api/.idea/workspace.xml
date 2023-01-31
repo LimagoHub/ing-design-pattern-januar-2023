@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a60b74-963a-4d61-8479-7f0dbc060429" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/Tag2_01Observer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/src/de/ing/application/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/src/de/tiere/PigToFatListerner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/src/de/tiere/Schwein.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tag1_04Visitor/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_04Visitor/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tag1_05State/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_05State/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface-segregation-gui/.idea/sonarlint/issuestore/4/0/40d3ed2c4d0b574610a1006df664767a4e994cc0" beforeDir="false" afterPath="$PROJECT_DIR$/../interface-segregation-gui/.idea/sonarlint/issuestore/4/0/40d3ed2c4d0b574610a1006df664767a4e994cc0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../interface-segregation-gui/src/de/limago/Fenster.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interface-segregation-gui/src/de/limago/Fenster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tag1_07Builder/src/builder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tag1_07Builder/src/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/src/de/events/PropertyChangedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/src/de/events/PropertyChangedListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tag2_01Observer/src/de/ing/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag2_01Observer/src/de/ing/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tag2_01Observer/src/de/tiere/Schwein.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag2_01Observer/src/de/tiere/Schwein.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

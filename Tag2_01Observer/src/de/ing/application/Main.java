@@ -1,5 +1,7 @@
 package de.ing.application;
 
+import de.events.PropertyChangedEvent;
+import de.events.PropertyChangedListener;
 import de.tiere.PigToFatListerner;
 import de.tiere.Schwein;
 
@@ -19,6 +21,12 @@ public class Main {
         schwein.addPigToFatListener(s->spediteur.fahren(s));
         schwein.addPigToFatListener(spediteur::fahren);
 
+        schwein.addPropertyChangedListener(new PropertyChangedListener() {
+            @Override
+            public void propertyChanged(PropertyChangedEvent event) {
+                System.out.println(event);
+            }
+        });
         for (int i = 0; i < 11; i++) {
             schwein.fuettern();
         }

@@ -1,10 +1,10 @@
 package de.trafficlight;
 
-public class AbstractTrafficLightState implements TrafficLightState{
+public abstract class AbstractTrafficLightState implements TrafficLightState{
 
     private final TrafficLight trafficLight;
 
-    public AbstractTrafficLightState(TrafficLight trafficLight) {
+    public AbstractTrafficLightState(final TrafficLight trafficLight) {
         this.trafficLight = trafficLight;
     }
 
@@ -15,6 +15,16 @@ public class AbstractTrafficLightState implements TrafficLightState{
 
     @Override
     public void nextColor() {
+        throw new UnsupportedOperationException("Upps");
+    }
+
+    @Override
+    public void switchOn() {
+        throw new UnsupportedOperationException("Upps");
+    }
+
+    @Override
+    public void switchOff() {
         throw new UnsupportedOperationException("Upps");
     }
 

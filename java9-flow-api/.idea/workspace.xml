@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0a60b74-963a-4d61-8479-7f0dbc060429" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/AbstractTrafficLightColorState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/OffState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tag1_07Builder/src/builder/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tag1_06TrafficLight/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/limago/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/limago/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/AbstractTrafficLightState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/AbstractTrafficLightState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/GreenState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/GreenState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/RedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/RedState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/TrafficLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/TrafficLight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/TrafficLightState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/TrafficLightState.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2L59OlRoxW5S58aHHYqA1O50ndX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/JoachimWagner/git/ing/ing-design-pattern-januar-2023/java9-flow-api",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0a60b74-963a-4d61-8479-7f0dbc060429" name="Changes" comment="" />
+      <created>1675150047220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675150047220</updated>
+      <workItem from="1675150048477" duration="34000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

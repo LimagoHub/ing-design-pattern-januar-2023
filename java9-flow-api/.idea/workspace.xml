@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a60b74-963a-4d61-8479-7f0dbc060429" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Tag2_02FlowApi/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tag2_01Observer/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag2_01Observer/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tag2_01Observer/src/de/tiere/Schwein.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag2_01Observer/src/de/tiere/Schwein.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_02FlowApi/src/de/processores/MyProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_02FlowApi/src/de/subscriber/EndSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_03Command/src/application/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_03Command/src/de/command/AbstractCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_03Command/src/de/command/AddCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_03Command/src/de/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_03Command/src/de/command/CommandFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_03Command/src/de/command/CommandHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_03Command/src/de/command/PrintCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_03Command/src/de/command/SubCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_03Command/src/de/math/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tag2_02FlowApi/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag2_02FlowApi/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675150047220</updated>
       <workItem from="1675150048477" duration="367000" />
-      <workItem from="1675152005697" duration="613000" />
+      <workItem from="1675152005697" duration="2832000" />
     </task>
     <servers />
   </component>

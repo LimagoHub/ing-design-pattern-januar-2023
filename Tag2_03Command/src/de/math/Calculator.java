@@ -8,13 +8,7 @@ public class Calculator {
         return instance;
     }
 
-    public double getMemory() {
-        return memory;
-    }
 
-    public void setMemory(double memory) {
-        this.memory = memory;
-    }
 
     private Calculator() {
         this.memory = 0.0;

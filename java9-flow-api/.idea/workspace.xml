@@ -2,21 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a60b74-963a-4d61-8479-7f0dbc060429" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/AbstractTrafficLightColorState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/OffState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tag1_07Builder/src/builder/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tag1_06TrafficLight/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/limago/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/limago/application/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/AbstractTrafficLightState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/AbstractTrafficLightState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/GreenState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/GreenState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/RedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/RedState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/TrafficLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/TrafficLight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/TrafficLightState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_06TrafficLight/src/de/trafficlight/TrafficLightState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/Tag2_01Observer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/src/de/ing/application/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/src/de/tiere/PigToFatListerner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tag2_01Observer/src/de/tiere/Schwein.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tag1_04Visitor/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_04Visitor/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tag1_05State/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag1_05State/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interface-segregation-gui/.idea/sonarlint/issuestore/4/0/40d3ed2c4d0b574610a1006df664767a4e994cc0" beforeDir="false" afterPath="$PROJECT_DIR$/../interface-segregation-gui/.idea/sonarlint/issuestore/4/0/40d3ed2c4d0b574610a1006df664767a4e994cc0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interface-segregation-gui/src/de/limago/Fenster.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interface-segregation-gui/src/de/limago/Fenster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tag1_07Builder/src/builder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tag1_07Builder/src/builder/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2L59OlRoxW5S58aHHYqA1O50ndX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,6 +37,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/JoachimWagner/git/ing/ing-design-pattern-januar-2023/java9-flow-api",
     "project.structure.last.edited": "Project",
@@ -44,7 +54,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675150047220</updated>
-      <workItem from="1675150048477" duration="34000" />
+      <workItem from="1675150048477" duration="367000" />
+      <workItem from="1675152005697" duration="613000" />
     </task>
     <servers />
   </component>

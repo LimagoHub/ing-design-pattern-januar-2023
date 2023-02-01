@@ -1,5 +1,6 @@
 package de.composite;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
@@ -52,6 +53,15 @@ public class AbstractBankNode {
     }
 
     public Iterator<AbstractBankNode> iterator() {
-        return null; // sich selbst und alle Kinder und Kindeskinder self or descant
+        List<AbstractBankNode> list = new ArrayList<>();
+        iteratorHelper(list);
+        return list.iterator(); // sich selbst und alle Kinder und Kindeskinder self or descant
+    }
+
+    private void iteratorHelper(List<AbstractBankNode> list ) {
+        list.add(this);
+        for (var child : getChildren()) {
+            child.iteratorHelper(list);
+        }
     }
 }

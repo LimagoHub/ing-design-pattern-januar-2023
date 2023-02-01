@@ -1,11 +1,13 @@
 package de.composite;
 
+import de.composite.visitor.KontoVisitor;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-public class AbstractBankNode {
+public abstract class AbstractBankNode {
 
     private AbstractBankNode parent = null;
     private String label;
@@ -48,6 +50,13 @@ public class AbstractBankNode {
 //        getChildren().forEach(AbstractBankNode::print);
 //    }
 
+
+    public void iterate(KontoVisitor visitor) {
+        visitor.init();
+        iterator().forEachRemaining(k->k.accept(visitor));
+        visitor.dispose();
+    }
+
     public void print() {
        iterator().forEachRemaining(System.out::println);
     }
@@ -64,4 +73,5 @@ public class AbstractBankNode {
             child.iteratorHelper(list);
         }
     }
+    public abstract void accept(KontoVisitor visitor) ;
 }

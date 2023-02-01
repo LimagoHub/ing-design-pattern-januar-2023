@@ -1,5 +1,7 @@
 package de.composite;
 
+import de.composite.visitor.KontoVisitor;
+
 public class Konto extends AbstractBankNode {
 
     private double saldo;
@@ -23,5 +25,10 @@ public class Konto extends AbstractBankNode {
     @Override
     public String toString() {
         return super.toString() + ", Saldo=" + getSaldo();
+    }
+
+    @Override
+    public void accept(KontoVisitor visitor) {
+        visitor.visit(this);
     }
 }

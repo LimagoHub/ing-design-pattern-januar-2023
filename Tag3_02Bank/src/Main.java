@@ -1,6 +1,7 @@
 import de.composite.AbstractBankNode;
 import de.composite.Konto;
 import de.composite.KontoGruppe;
+import de.composite.visitor.PrintVisitor;
 
 public class Main {
     public static void main(String[] args) {
@@ -30,8 +31,8 @@ public class Main {
         e1.append(e1_5);
 
 
-        root.print();
-
+        //root.print();
+        root.iterate(new PrintVisitor());
     }
 
 

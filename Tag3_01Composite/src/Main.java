@@ -20,6 +20,7 @@ public class Main {
         e1.append(e1_2);
 
         travers(root);
+
     }
 
     static void travers(AbstractNode node) {

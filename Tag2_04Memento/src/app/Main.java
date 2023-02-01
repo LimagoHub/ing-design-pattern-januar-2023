@@ -12,6 +12,13 @@ public class Main {
 
         SchweineMemento memento = piggy.getMemento();
 
+        piggy = null;
+        System.gc();
+
+        Schwein babe = new Schwein();
+        babe.setMemento(memento);
+
+
         piggy.fuettern();
 
         System.out.println(piggy);

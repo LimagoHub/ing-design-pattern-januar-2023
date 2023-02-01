@@ -8,7 +8,13 @@ public class Calculator {
         return instance;
     }
 
+    private double getMemory() {
+        return memory;
+    }
 
+    private void setMemory(double memory) {
+        this.memory = memory;
+    }
 
     private Calculator() {
         this.memory = 0.0;
@@ -33,5 +39,28 @@ public class Calculator {
 
     public void print() {
         System.out.println(memory);
+    }
+
+
+
+    public CalculatorMemento getMemento() {
+        return new MyCalculatorMemento(getMemory());
+    }
+
+    public void setMemento(CalculatorMemento memento) {
+        setMemory( ((MyCalculatorMemento) memento).getMemory()
+        );
+    }
+
+    static class MyCalculatorMemento implements CalculatorMemento {
+        private final double memory;
+
+        public MyCalculatorMemento(double memory) {
+            this.memory = memory;
+        }
+
+        public double getMemory() {
+            return memory;
+        }
     }
 }

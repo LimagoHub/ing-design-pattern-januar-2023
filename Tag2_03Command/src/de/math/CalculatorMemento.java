@@ -1,2 +1,4 @@
-package de.math;public class CalculatorMemento {
+package de.math;
+
+public interface CalculatorMemento {
 }

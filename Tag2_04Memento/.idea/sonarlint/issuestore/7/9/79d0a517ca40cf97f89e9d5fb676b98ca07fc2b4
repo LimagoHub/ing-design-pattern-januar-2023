@@ -1,4 +1,8 @@
 
+`
+java:S2259"CA "NullPointerException" could be thrown; "piggy" is nullable here.(’óÔÇ8çÏëÀà0
 N	java:S106"9Replace this use of System.out or System.err by a logger.(­¢‘í
-N	java:S106"9Replace this use of System.out or System.err by a logger.(­¢‘í
-U	java:S106"9Replace this use of System.out or System.err by a logger.(­¢‘í8š²Ñ¿à0
+q
+java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8ãûëÀà0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(­¢‘í
+N	java:S106"9Replace this use of System.out or System.err by a logger.(­¢‘í
